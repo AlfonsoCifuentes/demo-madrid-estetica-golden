@@ -1,74 +1,69 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Golden Estética - Tu Belleza en Madrid</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Poppins', sans-serif; }
-        .mobile-first-container { max-width: 480px; margin: 0 auto; background: #fff; min-height: 100vh; position: relative; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Golden Estética - Tu Belleza en Madrid</title>
+  <meta name="description" content="Golden Estética propone una experiencia luminosa de medicina estética en Madrid con tratamientos faciales y corporales." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="bg-gray-100">
-    <div class="mobile-first-container shadow-xl">
-        <!-- Direct Brand -->
-        <header class="p-6 text-center border-b bg-amber-50">
-            <h1 class="text-2xl font-bold text-amber-600">Golden Estética</h1>
-            <p class="text-xs text-amber-800/60 font-medium">Resultados Brillantes en Madrid</p>
-        </header>
-
-        <!-- Fast Hook (Business-First for Conversion) -->
-        <section class="p-8">
-            <div class="bg-amber-600 rounded-3xl p-8 text-white mb-8 shadow-lg relative overflow-hidden">
-                <div class="relative z-10">
-                    <h2 class="text-2xl font-bold mb-4">Descubre tu brillo interior.</h2>
-                    <p class="text-sm text-amber-100 mb-6">Tratamientos faciales y corporales personalizados con la última tecnología.</p>
-                    <button class="bg-white text-amber-600 px-6 py-3 rounded-xl font-bold text-sm shadow-md">
-                        ¡Reserva tu cita hoy!
-                    </button>
-                </div>
-                <!-- Abstract decoration -->
-                <div class="absolute -right-10 -bottom-10 w-40 h-40 bg-amber-500 rounded-full blur-2xl opacity-50"></div>
-            </div>
-
-            <!-- Focus (Business-First) -->
-            <div class="space-y-4">
-                <div class="flex items-center gap-4 p-4 border border-amber-100 rounded-2xl bg-white">
-                    <div class="text-2xl">💆‍♀️</div>
-                    <div>
-                        <div class="font-bold text-gray-800 text-sm">Limpieza Profunda</div>
-                        <div class="text-[10px] text-gray-500">Elimina impurezas y revive tu piel.</div>
-                    </div>
-                </div>
-                <div class="flex items-center gap-4 p-4 border border-amber-100 rounded-2xl bg-white">
-                    <div class="text-2xl">💅</div>
-                    <div>
-                        <div class="font-bold text-gray-800 text-sm">Manicura Premium</div>
-                        <div class="text-[10px] text-gray-500">Cuidado excepcional para tus manos.</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Google Map / Location Placeholder -->
-        <section class="p-8 bg-gray-50">
-            <h3 class="text-xs font-bold text-gray-400 uppercase mb-4 tracking-widest text-center">Dónde estamos</h3>
-            <div class="w-full h-40 bg-gray-200 rounded-2xl flex items-center justify-center text-gray-400 italic text-xs">
-                [Mapa de Madrid: Cerca de ti]
-            </div>
-        </section>
-
-        <!-- Floating Call (Mobile-First) -->
-        <div class="fixed bottom-6 right-6 flex flex-col gap-3">
-            <button class="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center shadow-2xl text-2xl text-white">
-                <span>[WhatsApp]</span>
-            </button>
-            <button class="w-14 h-14 bg-amber-600 rounded-full flex items-center justify-center shadow-2xl text-2xl text-white">
-                Tel:
-            </button>
+<body>
+  <header class="site-header">
+    <a href="#inicio" class="brand">Golden Estética<span>Tu belleza en Madrid</span></a>
+    <nav class="site-nav" aria-label="Principal">
+      <a href="#rituales">Rituales</a>
+      <a href="#ubicacion">Dónde estamos</a>
+      <a href="#contacto">Reserva</a>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio" class="hero-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Belleza luminosa · Madrid</p>
+        <h1>Descubre tu brillo interior.</h1>
+        <p class="intro">Golden Estética combina ambiente cuidado, protocolos faciales y corporales y un trato de estudio boutique para quienes quieren verse mejor con una experiencia estética más sensorial que hospitalaria.</p>
+        <div class="hero-actions">
+          <a href="#contacto" class="button button-solid">Reservar experiencia</a>
+          <a href="#rituales" class="button button-outline">Ver propuesta</a>
         </div>
-    </div>
+      </div>
+      <div class="hero-glow">
+        <span>Glow Studio</span>
+        <strong>Luz, textura y definición</strong>
+      </div>
+    </section>
+    <section id="rituales" class="rituals-shell">
+      <div class="section-header">
+        <p class="eyebrow">Propuesta estética</p>
+        <h2>Rituales diseñados para iluminar, redefinir y cuidar sin rigidez clínica.</h2>
+      </div>
+      <div class="rituals-grid">
+        <article><h3>Glow facial</h3><p>Tratamientos para devolver frescura, jugosidad y luz a la piel.</p></article>
+        <article><h3>Contorno suave</h3><p>Protocolos para perfilar rasgos con intención sutil y elegante.</p></article>
+        <article><h3>Corporal premium</h3><p>Sesiones enfocadas en textura, firmeza y bienestar general.</p></article>
+      </div>
+    </section>
+    <section id="ubicacion" class="location-shell">
+      <div class="section-header section-header-light">
+        <p class="eyebrow">Dónde estamos</p>
+        <h2>Un espacio en Madrid pensado para que la visita se sienta tranquila desde el primer minuto.</h2>
+      </div>
+      <div class="location-panel">
+        <p>Consulta en Madrid con atención orientada a cita previa, valoración individual y planificación de sesiones.</p>
+        <a href="#contacto" class="button button-ghost">Solicitar cita</a>
+      </div>
+    </section>
+    <section id="contacto" class="cta-shell">
+      <p class="eyebrow">Reserva tu cita</p>
+      <h2>Empieza con una valoración que ordene objetivos, tiempos y tratamiento adecuado.</h2>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <p>Golden Estética · Tu Belleza en Madrid</p>
+    <p>Experiencias faciales y corporales con una dirección visual más luminosa y sensorial</p>
+  </footer>
 </body>
 </html>
